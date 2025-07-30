@@ -20,7 +20,7 @@ jobs:
 
       - name: Install Dependencies
         run: |
-          gem install bundler
+          gem install bundler -v "$(grep -A 1 "BUNDLED WITH" Gemfile.lock | tail -n 1)"
           bundle init
           bundle install
 

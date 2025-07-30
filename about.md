@@ -14,6 +14,6 @@ Heya, I am **Kevin**, and this is a test of Markdown, Jekyll and Github Actions 
 
 ## 🤝 Let’s Connect
 
-- [LinkedIn](https://www.linkedin.com/in/yourprofile)
-- [Email Me](you@gmail.com)
-- [GitHub](https://github.com/yourusername)
+- [LinkedIn](https://www.linkedin.com/in/kevin-patrascu-419aab168)
+- [Email Me](kevin_patrascu@hotmail.com)
+- [GitHub](https://github.com/Bloofie)

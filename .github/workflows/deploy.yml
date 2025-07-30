@@ -25,7 +25,7 @@ jobs:
         run: bundle init
 
       - name: Bundle Install
-        run: bundle install
+        run: bundle install jekyll
 
       - name: Build Jekyll Site
         run: bundle exec jekyll build

@@ -21,7 +21,13 @@ jobs:
       - name: Install Bundler & Jekyll
         run: gem install jekyll bundler
 
-      - name: Install & Build Jekyll Site
+      - name: Bundle Init & Install
+        run: |
+          bundle init
+          bundle install
+          bundle add webrick
+
+      - name: Build Jekyll Site
         run: bundle exec jekyll build
 
       - name: Deploy to GitHub Pages

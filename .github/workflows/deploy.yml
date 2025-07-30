@@ -18,8 +18,8 @@ jobs:
         with:
           ruby-version: '3.1'
 
-      - name: Install Bundler & Jekyll
-        run: gem install jekyll bundler
+      - name: Install Bundler, Jekyll & Minima
+        run: gem install jekyll bundler minima
 
       - name: Bundle Init & Install
         run: |

@@ -24,9 +24,9 @@ jobs:
       - name: Bundle Init & Install
         run: |
           bundle init
-          bundle install
-          bundle add webrick
+          bundle install 
           bundle add jekyll
+          bundle add minima
 
       - name: Build Jekyll Site
         run: bundle exec jekyll build

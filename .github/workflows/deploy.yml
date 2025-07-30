@@ -30,7 +30,7 @@ jobs:
       - name: Install & Build Jekyll Site
         run: |
           gem install jekyll bundle
-          bundle exec jekyll build
+          bundle exec jekyll serve
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3

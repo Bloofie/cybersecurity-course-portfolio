@@ -26,6 +26,7 @@ jobs:
           bundle init
           bundle install
           bundle add webrick
+          bundle add jekyll
 
       - name: Build Jekyll Site
         run: bundle exec jekyll build

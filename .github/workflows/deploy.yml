@@ -18,8 +18,10 @@ jobs:
         with:
           ruby-version: '3.1'
 
-      - name: Install Bundler
-        run: gem install bundler
+      - name: Install Bundler & Jekyll
+        run: |
+          gem install bundler
+          gem install jekyll bundle
 
       - name: Bundle Init
         run: bundle init
@@ -28,9 +30,7 @@ jobs:
         run: bundle install
 
       - name: Install & Build Jekyll Site
-        run: |
-          gem install jekyll bundle
-          bundle exec jekyll serve
+        run: bundle exec jekyll serve
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3

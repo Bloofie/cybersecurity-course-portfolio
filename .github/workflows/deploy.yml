@@ -21,6 +21,9 @@ jobs:
       - name: Install Bundler
         run: gem install bundler
 
+      - name: Bundle Init
+        run: bundle init
+
       - name: Bundle Install
         run: bundle install
 
